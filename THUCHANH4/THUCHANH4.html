@@ -7,6 +7,15 @@
     <title>Document</title>
 </head>
 <body>
-    <script src="./main2.js"></script>
+    <script>
+        let width, height, area;
+        width = parseFloat(prompt("Nhập chiều rộng hình chữ nhật")); // trả về string
+        height = parseFloat(prompt("Nhập chiều dài hình chữ nhật"));
+     // parseInt dành cho só nguyên vd: 2 3 4, parseFloat dành cho tất cả các số
+        area = width * height; // tính diện tích
+        console.log("are: ", area);
+        document.write("Are: " + area);
+    </script>
+    <!-- <script src="./main2.js"></script> -->
 </body>
 </html>
